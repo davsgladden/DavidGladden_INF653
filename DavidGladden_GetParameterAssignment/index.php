@@ -1,11 +1,7 @@
 <?php
 	#declare variables
 	$greeting = "Hello, my name is ";
-	
-
-	
 	$vote = "";
-
 
 	if(isset($_GET["firstName"]) && isset($_GET["lastName"]) && isset($_GET["age"])) {
 		$firstName = htmlspecialchars($_GET["firstName"]);

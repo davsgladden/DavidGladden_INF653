@@ -78,7 +78,7 @@
 				<fieldset>
 				<input type="text" id="newTitle" name="newTitle" placeholder="Title:" required>
 				<br>
-				<input type="text" id="newDescription" name="newDescription" placeholder="Description:" maxsize="20" required>			
+				<input type="text" id="newDescription" name="newDescription" placeholder="Description:" required>			
 				<button>Add Item</button>
 				</fieldset>
 				<br>

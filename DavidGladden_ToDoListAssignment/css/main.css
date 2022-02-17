@@ -1,0 +1,73 @@
+#add h2 {
+    color:coral;
+    font-weight:bold;
+    margin: 0;
+}
+
+
+#display h2 {
+    color: white;
+    background-color:darkblue;
+    border-style:groove;
+    font-weight: bold;
+    margin: 0;
+}
+
+p {
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 0.5em;
+    padding: 3px;
+    display: inline;
+    position: relative;
+    z-index: 1;
+}
+
+#title {
+    font-weight: bold;
+    padding: 0.2em;
+    border-bottom: 1px solid black;
+    padding-bottom: 1px;
+}
+#description {
+    padding-left: 1em;
+}
+
+#delete {
+    color:red;
+    font-weight:bold;
+}
+
+#add fieldset {
+    font-size: 1em;
+    padding: 0.5em;
+    border-radius: 1em;
+    font-family: sans-serif;
+    background-color: #fff;
+    line-height: 1;
+    margin: 0;
+    display: inline;
+    position: relative;
+    z-index: 1;
+}
+
+label, input, button {
+    font-size: inherit;
+    padding: 0.2em;
+    margin: 0.1em 0.2em;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+#display fieldset {
+    font-size: 1em;
+    padding: 0.5em;
+    font-family: sans-serif;
+    background-color: #fff;
+    line-height: 1;
+    margin: 0;
+    display: inline;
+    position: relative;
+    z-index: 1;
+}
